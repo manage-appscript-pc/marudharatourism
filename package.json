@@ -1,0 +1,27 @@
+{
+  "name": "marudharatourism",
+  "version": "1.0.0",
+  "description": "Marudhara Tourism",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon --watch . server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://pcbishnoi@bitbucket.org/pcbishnoi/marudharatourism.git"
+  },
+  "author": "Cyclic Software",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "marudharatourism.com",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
