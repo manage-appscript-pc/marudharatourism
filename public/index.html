@@ -1,32 +1,495 @@
-<!doctype html>
-<html lang=en>
-  <head>
-    <meta charset=utf-8>
-    <title>Marudhara Tourism</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <link rel="icon" href="/favicon.ico" />
-  </head>
-  <body>
-    <div id="hello-wrapper">
-      <div id="particles-js"></div>
-      <div class="content position-absolute w-100 top-0 pt-5">
-        <div class="cta">
-          <div id="hello" class="typewriter pb-3">
-            Something cool on your way!
-          </div>
-        </div>
-        <div id="world">
-          <canvas id='rotatingGlobe' style='cursor: move;'></canvas>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Marudhara Tourism - Discover the world one adventure at a time.</title>
+  <meta content="Plan your dream vacation with our expert travel guides and tips. Discover the best destinations, activities, and accommodations for your next adventure. Book now and experience the world with us in Rajasthan." name="description">
+  <meta content="Travel, Vacation, Destination, Tourist attractions, Sightseeing, Adventure, Hotels, Resorts, Itinerary, Tourism packages, Backpacking, Cultural experiences, Outdoor activities, Landmarks, Local cuisine, Family-friendly, Budget-friendly, Sustainable tourism, Honeymoon destinations, Solo travel, Group tours, Travel tips and guides, " name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Green
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone-fill phone-icon"></i> +91-8460656875
       </div>
     </div>
-    <script type='text/javascript' src='//d3js.org/d3.v3.min.js'></script>
-    <script type='text/javascript' src='//d3js.org/topojson.v1.min.js'></script>
-    <script type='text/javascript' src='planetaryjs.min.js'></script>
-    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script type='text/javascript' src='particles.js'></script>
-    <script type='text/javascript' src='globe.js'></script>
-  </body>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <!-- <h1 class="logo me-auto"><a href="">Marudhara Tourism</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/MIT-logos_transparent.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto " href="#camera_eyes">Camera Eyes</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+  <main id="main">
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Know Me</h2>
+          <p>Rajasthan is a state located in the northwestern part of India, known for its rich cultural heritage, history, and scenic beauty. To showcase the various tourism opportunities in Rajasthan, a dedicated tourism website has been created. This website covers various forms of tourism in the state, including rural tourism, tribal tourism, celebs wedding destination, temple tourism, and medical tourism.
+</p><p>
+The rural tourism highlights the rustic charm and natural beauty of rural Rajasthan. It includes information about various rural areas, their culture, traditions, and handicrafts. The website also lists various rural tourism packages, which allow visitors to experience the true essence of rural Rajasthan.
+</p><p>
+The tribal tourism showcases the colorful tribal culture of Rajasthan. Visitors can learn about the unique customs, traditions, and way of life of various tribal communities in the state. The website also lists various tribal tourism packages that provide an immersive experience for visitors.
+</p><p>
+The celebs wedding destination highlights Rajasthan's popularity as a wedding destination for celebrities. The website lists various venues that are popular for celebrity weddings, along with information about the services and amenities they offer.
+</p><p>
+The temple tourism covers the many temples and holy sites that Rajasthan has to offer. Visitors can learn about the history and significance of these sites and plan their visit accordingly. The website also lists various temple tourism packages that cater to the needs of devotees and spiritual seekers.
+</p><p>
+The medical tourism covers the many medical facilities and treatments available in Rajasthan. Visitors can learn about the state's top hospitals and medical centers, along with information about the specialized treatments they offer. The website also lists various medical tourism packages that cater to the needs of patients and their families.
+</p><p>
+We provide a comprehensive guide to the various forms of tourism in the state, making it a valuable resource for anyone planning a trip to Rajasthan.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="assets/img/20210101_172106.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Experience Royalty in the Land of Kings - Visit Rajasthan!</h3>
+            <p>
+              Welcome to the magical land of Rajasthan, where a rich tapestry of culture, history, and natural beauty awaits you. Home to magnificent forts, elegant palaces, and vibrant markets, Rajasthan is a destination unlike any other. Immerse yourself in the royal heritage of the Rajasthan as you explore the stunning architecture of Jaipur, Udaipur, and Jodhpur, or soak up the natural beauty of Ranthambore National Park and the Thar Desert. Whether you're interested in art, history, or adventure, there's something for everyone in Rajasthan. Come and discover the wonders of this enchanting state, where every corner tells a story and every experience is unforgettable.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>01</span>
+            <h4>Heritage Tourism</h4>
+            <p>Rajasthan is known for its rich history and culture, and is home to numerous forts, palaces, and temples that date back centuries. Heritage tourism is a popular type of tourism in Rajasthan, as visitors can explore the state's ancient architecture and learn about its fascinating past.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>02</span>
+            <h4>Wildlife Tourism</h4>
+            <p>Rajasthan is home to several wildlife sanctuaries and national parks, including Ranthambore National Park and Sariska Tiger Reserve. These parks are home to a variety of animals, including tigers, leopards, and elephants, and are a popular destination for wildlife enthusiasts.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>03</span>
+            <h4>Adventure Tourism</h4>
+            <p>The rugged terrain of Rajasthan makes it a great destination for adventure tourism. Visitors can enjoy activities such as hot air balloon rides, camel safaris, and trekking through the Thar Desert.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>04</span>
+            <h4>Cultural Tourism</h4>
+            <p>Rajasthan is known for its vibrant culture, including its colorful festivals, traditional music, and dance performances. Cultural tourism is a great way to experience the local way of life and learn about the traditions and customs of the people of Rajasthan.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>05</span>
+            <h4>Spiritual Tourism</h4>
+            <p>Rajasthan is home to several important religious sites, including the Ajmer Sharif Dargah and the Brahma Temple in Pushkar. Spiritual tourism is a popular type of tourism in Rajasthan, as visitors can experience the spiritual and religious traditions of the state.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>06</span>
+            <h4>Tribal Tourism</h4>
+            <p>Tribal tourism in Rajasthan is an emerging form of tourism that allows visitors to experience the unique culture and traditions of the tribal communities that live in the state.
+            Visitors can experience tribal tourism by visiting tribal villages and interacting with the local people, learning about their daily lives, customs, and traditions. Visitors can also participate in local festivals and events
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="camera_eyes" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>In The Eyes of Camera</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-wildlife">Wildlife</li>
+              <li data-filter=".filter-heritage">Heritage</li>
+              <li data-filter=".filter-adventure">Adventure</li>
+              <li data-filter=".filter-cultural">Cultural</li>
+              <li data-filter=".filter-spiritual">Spiritual</li>
+              <li data-filter=".filter-tribal">Tribal</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wildlife">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wildlife</h4>
+                <p>Wildlife</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_172106.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Wildlife"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-adventure">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Adventure</h4>
+                <p>Adventure</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_172106.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Adventure"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wildlife">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wildlife</h4>
+                <p>Wildlife</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_172106.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Wildlife"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wildlife">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Wildlife</h4>
+                <p>Wildlife</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_172106.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Wildlife"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-heritage">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Heritage</h4>
+                <p>Heritage</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_172106.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Heritage"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-heritage">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Heritage</h4>
+                <p>Heritage</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_172106.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Heritage"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-adventure">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Adventure</h4>
+                <p>Adventure</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Adventure"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cultural">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cultural</h4>
+                <p>Cultural</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cultural"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cultural">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cultural</h4>
+                <p>Cultural</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cultural"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cultural">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cultural</h4>
+                <p>Cultural</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cultural"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-spiritual">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Spiritual</h4>
+                <p>Spiritual</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Spiritual"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-spiritual">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Spiritual</h4>
+                <p>Spiritual</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Spiritual"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-spiritual">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Spiritual</h4>
+                <p>Spiritual</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Spiritual"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-heritage">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Heritage</h4>
+                <p>Heritage</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Heritage"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-adventure">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tribal</h4>
+                <p>Tribal</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tribal"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tribal">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tribal</h4>
+                <p>Tribal</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tribal"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tribal">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_172106.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tribal</h4>
+                <p>Tribal</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tribal"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tribal">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/20210101_173021.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tribal</h4>
+                <p>Tribal</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/20210101_173021.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tribal"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Flat No. T-403 P. No-7/2, Gajsinghpura, Jagdamba Jaipur, RJ - 302021</p>
+              </div>
+
+              <!-- <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div> -->
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91-8460656875</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Marudhara Tourism</h3>
+      <p>Discover the Royal Legacy of Rajasthan - Where History, Culture, and Adventure Meet.</p>
+      <div class="social-links">
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Marudhara Tourism</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
