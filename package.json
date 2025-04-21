@@ -19,9 +19,9 @@
   },
   "homepage": "marudharatourism.com",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.9"
   }
 }
